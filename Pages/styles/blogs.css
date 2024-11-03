@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafaf9;
+  margin: 0;
+  }
+
+  /*  header */
+.title{
+  background-color: #3b82f6;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 0rem 0rem 0.5rem 0.5rem ;
+  box-sizing: border-box;
+  color:  #D1D5DB;
+}
+#search-form{
+  display: flex;            
+  align-items: center;     
+  margin: 2rem ;        
+  border-radius: 0.5rem;    
+}
+
+#city-search {
+  flex: 1;                  
+  padding: 1rem;           
+  margin-right: 1rem;       
+  border: 1px solid #ccc;  
+  border-radius: 0.5rem;    
+  font-size: 1rem;          
+}
+
+#search-form button {
+  padding: 1rem 2rem;      
+  background-color:#1D4ED8; 
+  color: white;             
+  border: none;             
+  border-radius: 0.5rem;    
+  font-size: 1rem;          
+  cursor: pointer;          
+  transition: background-color 0.3s; 
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#search-form button:hover {
+  background-color: #2D3748; 
+}
+
+
+  
+  #blogs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-entry {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .blog-entry h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .blog-entry p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .blog-entry .date {
+    font-size: 0.9em;
+    color: #999;
+  }
+
+  .comments-section {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  .comment-entry {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .comment-form {
+    margin-top: 1rem;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .comment-form button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #2563eb;
+  }
+  
+
+  
+  
