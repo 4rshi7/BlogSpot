@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <title>BlogSpot</title>
 </head>
 <body>
@@ -15,10 +16,17 @@
         </form>
 </div>
     <div class="hero">
-        <h1>A new Journey onsets a new Adventure</h1>
-        <h2>Find Experiences with <b>BLOGSPOT.</b></h2>
-        <button onclick="redirectToBlogs()">Lets's Find Experiences</button>
+        <div class="heading-hero">A new Journey onsets a new Adventure</div>
+        <div class="subheading-hero">Find Experiences with <b>BLOGSPOT.</b></div>
+        <a onclick="redirectToBlogs()">Lets's Find Experiences</a>
     </div>
+    <div class="map-container">
+        <div class="map-text">Map of Experiences: Discover Our Blog Highlights</div>
+    <div id="map" style=" margin-bottom: 2rem; margin-top: 2rem;height: 30rem; width:30rem; "></div>
+</div>
+
     <script src="script.js"></script>
+    
 </body>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </html>

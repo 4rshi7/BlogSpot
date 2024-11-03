@@ -1,64 +1,159 @@
 {
-    "blogs": [
-      {
-        "name": "Alice Brown",
-        "city_of_visit": "Paris",
-        "date": "2024-10-01",
-        "blog": "Paris was magical! The Eiffel Tower lit up the night sky, and the pastries were the best I’ve ever had. Definitely a city to visit again."
-      },
-      {
-        "name": "John Doe",
-        "city_of_visit": "Tokyo",
-        "date": "2024-09-15",
-        "blog": "Tokyo is a perfect blend of tradition and modernity. The shrines are peaceful, while the city buzzes with energy. Can't wait to go back!"
-      },
-      {
-        "name": "Sarah Lee",
-        "city_of_visit": "New York",
-        "date": "2024-08-22",
-        "blog": "The energy in New York is unmatched! From Times Square to Central Park, there’s something for everyone. The city truly never sleeps."
-      },
-      {
-        "name": "Michael Smith",
-        "city_of_visit": "Barcelona",
-        "date": "2024-07-30",
-        "blog": "Barcelona is such a vibrant city! Loved the architecture, especially the Sagrada Familia. The beach was also a perfect way to end each day."
-      },
-      {
-        "name": "Emily Johnson",
-        "city_of_visit": "Rome",
-        "date": "2024-06-10",
-        "blog": "Rome is a city where history comes alive. From the Colosseum to the Vatican, every corner has a story to tell. A must-visit!"
-      },
-      {
-        "name": "David Wilson",
-        "city_of_visit": "Sydney",
-        "date": "2024-05-18",
-        "blog": "Sydney has it all! Amazing beaches, a stunning opera house, and friendly locals. Bondi Beach was definitely a highlight."
-      },
-      {
-        "name": "Sophia Martinez",
-        "city_of_visit": "Istanbul",
-        "date": "2024-04-25",
-        "blog": "Istanbul was captivating. The mix of East and West is beautifully displayed in the city's architecture and culture. Loved the bazaars!"
-      },
-      {
-        "name": "James Nguyen",
-        "city_of_visit": "San Francisco",
-        "date": "2024-03-11",
-        "blog": "San Francisco’s Golden Gate Bridge and the hills were breathtaking. Exploring Chinatown and Fisherman's Wharf was a lot of fun!"
-      },
-      {
-        "name": "Olivia Patel",
-        "city_of_visit": "Cape Town",
-        "date": "2024-02-05",
-        "blog": "Cape Town is stunning, especially with Table Mountain as a backdrop. The natural beauty is incredible, and the wine was delicious!"
-      },
-      {
-        "name": "Liam Anderson",
-        "city_of_visit": "Dubai",
-        "date": "2024-01-20",
-        "blog": "Dubai’s skyline is awe-inspiring, and the malls are extravagant. Visiting the Burj Khalifa and the desert safari was unforgettable."
-      }
-    ]
-  }
+  "blogs": [
+    {
+      "name": "John Doe",
+      "city_of_visit": "New York",
+      "date": "2024-10-15",
+      "blog": "Visited the Statue of Liberty and enjoyed the vibrant city life of New York!",
+      "comments": [
+        {
+          "commenter": "Jane Smith",
+          "text": "Sounds amazing! I loved New York too.",
+          "date": "2024-10-16"
+        },
+        {
+          "commenter": "Sam Wilson",
+          "text": "Did you try the local food?",
+          "date": "2024-10-17"
+        }
+      ],
+      "latitude": 40.7128,
+      "longitude": -74.0060
+    },
+    {
+      "name": "Alice Johnson",
+      "city_of_visit": "Paris",
+      "date": "2024-08-20",
+      "blog": "Paris is just as beautiful as everyone says! The Eiffel Tower is breathtaking.",
+      "comments": [
+        {
+          "commenter": "Robert Brown",
+          "text": "I hope to visit Paris someday!",
+          "date": "2024-08-21"
+        }
+      ],
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    {
+      "name": "Michael Lee",
+      "city_of_visit": "Tokyo",
+      "date": "2024-09-10",
+      "blog": "Exploring Tokyo was like stepping into the future. The technology and culture are so unique!",
+      "comments": [
+        {
+          "commenter": "Chris Evans",
+          "text": "Tokyo is on my bucket list!",
+          "date": "2024-09-11"
+        }
+      ],
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    },
+    {
+      "name": "Sara Ahmed",
+      "city_of_visit": "Dubai",
+      "date": "2024-11-01",
+      "blog": "Dubai's skyscrapers and luxury are unparalleled! The Burj Khalifa is a must-see.",
+      "comments": [
+        {
+          "commenter": "Liam Thomas",
+          "text": "Dubai looks incredible!",
+          "date": "2024-11-02"
+        }
+      ],
+      "latitude": 25.2048,
+      "longitude": 55.2708
+    },
+    {
+      "name": "James Liu",
+      "city_of_visit": "Sydney",
+      "date": "2024-06-05",
+      "blog": "The Sydney Opera House and the harbor are stunning. I love the Aussie vibes here!",
+      "comments": [
+        {
+          "commenter": "Emily Clark",
+          "text": "Australia is on my travel list!",
+          "date": "2024-06-06"
+        }
+      ],
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    },
+    {
+      "name": "Maria Gonzales",
+      "city_of_visit": "Barcelona",
+      "date": "2024-05-25",
+      "blog": "The architecture in Barcelona, especially Sagrada Familia, is breathtaking. Gaudí’s work is inspiring!",
+      "comments": [
+        {
+          "commenter": "Oscar Rodriguez",
+          "text": "I've always wanted to see Barcelona!",
+          "date": "2024-05-26"
+        }
+      ],
+      "latitude": 41.3851,
+      "longitude": 2.1734
+    },
+    {
+      "name": "Anjali Patel",
+      "city_of_visit": "Mumbai",
+      "date": "2024-07-12",
+      "blog": "Mumbai is bustling and full of life! The street food is unbeatable.",
+      "comments": [
+        {
+          "commenter": "Ravi Sharma",
+          "text": "Yes! Vada pav is the best!",
+          "date": "2024-07-13"
+        }
+      ],
+      "latitude": 19.0760,
+      "longitude": 72.8777
+    },
+    {
+      "name": "Lara Kim",
+      "city_of_visit": "Seoul",
+      "date": "2024-03-18",
+      "blog": "Seoul is a perfect blend of tradition and modernity. The palaces and K-pop culture are fantastic!",
+      "comments": [
+        {
+          "commenter": "Kevin Park",
+          "text": "Seoul is my hometown! Glad you enjoyed it.",
+          "date": "2024-03-19"
+        }
+      ],
+      "latitude": 37.5665,
+      "longitude": 126.9780
+    },
+    {
+      "name": "David Miller",
+      "city_of_visit": "Rio de Janeiro",
+      "date": "2024-02-10",
+      "blog": "The beaches, the carnival, and the Christ the Redeemer statue - Rio is full of life!",
+      "comments": [
+        {
+          "commenter": "Luciana Silva",
+          "text": "I love Rio during the carnival season!",
+          "date": "2024-02-11"
+        }
+      ],
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    },
+    {
+      "name": "Sophia Chen",
+      "city_of_visit": "Beijing",
+      "date": "2024-04-02",
+      "blog": "The Forbidden City and the Great Wall are must-sees in Beijing. A place rich in history!",
+      "comments": [
+        {
+          "commenter": "Wei Zhang",
+          "text": "Welcome to China!",
+          "date": "2024-04-03"
+        }
+      ],
+      "latitude": 39.9042,
+      "longitude": 116.4074
+    }
+  ]
+}

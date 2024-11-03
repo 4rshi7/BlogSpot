@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="blogs.css">
+    <link rel="stylesheet" href="./styles/blogs.css">
     <title>Blogs</title>
 </head>
+
+
 <body>
-    <h1>BLOGSPOT</h1>
+    <div class="title">
+        <h1>BLOGSPOT</h1>
+        <form id="search-form">
+            <input id="city-search" placeholder="Enter the name of city" required>
+            <button type="submit" onclick="searchBlogs()">Search</button>
+            </form>
+    </div>
     <div id="blogs-container"></div>
 
-    <script src="./blogs.js"></script>
+    <script src="./scripts/blogs.js"></script>
 </body>
 </html>
