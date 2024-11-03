@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .catch(error => console.error("Error fetching blogs:", error));
     } else {
-        // If blogs already exists in localStorage, initialize the map
+        
         initMapWithMarkers(blogs);
     }
 });
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function initMapWithMarkers(blogs) {
     const map = L.map('map').setView([20.5937, 78.9629], 5);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
+        maxZoom: 6,
         attribution: '© OpenStreetMap'
     }).addTo(map);
 
