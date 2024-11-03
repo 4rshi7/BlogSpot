@@ -1,0 +1,64 @@
+{
+    "blogs": [
+      {
+        "name": "Alice Brown",
+        "city_of_visit": "Paris",
+        "date": "2024-10-01",
+        "blog": "Paris was magical! The Eiffel Tower lit up the night sky, and the pastries were the best I’ve ever had. Definitely a city to visit again."
+      },
+      {
+        "name": "John Doe",
+        "city_of_visit": "Tokyo",
+        "date": "2024-09-15",
+        "blog": "Tokyo is a perfect blend of tradition and modernity. The shrines are peaceful, while the city buzzes with energy. Can't wait to go back!"
+      },
+      {
+        "name": "Sarah Lee",
+        "city_of_visit": "New York",
+        "date": "2024-08-22",
+        "blog": "The energy in New York is unmatched! From Times Square to Central Park, there’s something for everyone. The city truly never sleeps."
+      },
+      {
+        "name": "Michael Smith",
+        "city_of_visit": "Barcelona",
+        "date": "2024-07-30",
+        "blog": "Barcelona is such a vibrant city! Loved the architecture, especially the Sagrada Familia. The beach was also a perfect way to end each day."
+      },
+      {
+        "name": "Emily Johnson",
+        "city_of_visit": "Rome",
+        "date": "2024-06-10",
+        "blog": "Rome is a city where history comes alive. From the Colosseum to the Vatican, every corner has a story to tell. A must-visit!"
+      },
+      {
+        "name": "David Wilson",
+        "city_of_visit": "Sydney",
+        "date": "2024-05-18",
+        "blog": "Sydney has it all! Amazing beaches, a stunning opera house, and friendly locals. Bondi Beach was definitely a highlight."
+      },
+      {
+        "name": "Sophia Martinez",
+        "city_of_visit": "Istanbul",
+        "date": "2024-04-25",
+        "blog": "Istanbul was captivating. The mix of East and West is beautifully displayed in the city's architecture and culture. Loved the bazaars!"
+      },
+      {
+        "name": "James Nguyen",
+        "city_of_visit": "San Francisco",
+        "date": "2024-03-11",
+        "blog": "San Francisco’s Golden Gate Bridge and the hills were breathtaking. Exploring Chinatown and Fisherman's Wharf was a lot of fun!"
+      },
+      {
+        "name": "Olivia Patel",
+        "city_of_visit": "Cape Town",
+        "date": "2024-02-05",
+        "blog": "Cape Town is stunning, especially with Table Mountain as a backdrop. The natural beauty is incredible, and the wine was delicious!"
+      },
+      {
+        "name": "Liam Anderson",
+        "city_of_visit": "Dubai",
+        "date": "2024-01-20",
+        "blog": "Dubai’s skyline is awe-inspiring, and the malls are extravagant. Visiting the Burj Khalifa and the desert safari was unforgettable."
+      }
+    ]
+  }
